@@ -1,5 +1,21 @@
 package com.company;
 
-public class Mustang {
-
+public class Mustang implements Horse {
+  private String name;
+  private int weight;
+  public Mustang(String name, int weight) {
+    this.name = name;
+    this.weight = weight;
+  }
+  
+  public String getName() {
+    return name;
+  }
+  public in getWeight() {
+    return weight;
+  }
+  public String toString() {
+    String output = "";
+    output += this.getName() + "," + "weights: " + this.getWeight();
+    return output;
 }
