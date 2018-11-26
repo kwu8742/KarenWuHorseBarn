@@ -11,7 +11,7 @@ public class Mustang implements Horse {
   public String getName() {
     return name;
   }
-  public in getWeight() {
+  public int getWeight() {
     return weight;
   }
   public String toString() {
